@@ -5,3 +5,4 @@ COPY . /app
 WORKDIR /app
 
 ENTRYPOINT ["python3", "./src/app.py"]
+#ENTRYPOINT ["python3"]
