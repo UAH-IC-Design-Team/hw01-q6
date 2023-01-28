@@ -1,5 +1,5 @@
 build-image:
-	echo "here is where the image build should go"
+	docker build . -t hw01-q6-py_app:latest
 
 run:
-	echo "here is where the run target should go"
+	docker container run --name py_app1 -v "hw01-q6-py_app:/data" hw01-q6-py_app:latest
