@@ -1,7 +1,10 @@
 FROM python:3
 
+WORKDIR /app
+
 COPY . /app
 
-WORKDIR /app
+
+RUN echo hello everyone
 
 ENTRYPOINT ["python3", "./src/app.py"]
