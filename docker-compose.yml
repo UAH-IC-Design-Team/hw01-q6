@@ -1,5 +1,6 @@
 version: "3.9"
 services:
-  py_app:
+ py_app:
     build: .
-    
+    volumes:
+      - .:/data
