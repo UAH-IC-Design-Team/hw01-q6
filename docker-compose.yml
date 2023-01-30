@@ -3,3 +3,7 @@ services:
   py_app:
     build: .
     
+    volumes:
+       -  ./hw01-q6-py_app:/data
+  
+
