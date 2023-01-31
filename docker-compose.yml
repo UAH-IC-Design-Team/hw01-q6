@@ -2,6 +2,5 @@ version: "3.9"
 services:
   py_app:
     build: .
-    #add volumes 
     volumes:
       - /hw01-q6:/data
